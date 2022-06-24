@@ -3,24 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="estilo.css">
     
     
     <title>Document</title>
 </head>
-<body>
-   <header>
-   </header>
+<body class="color">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="logo.jpg"  width="120" height="100" alt=""><br>
+          <p class="logo">DISTRACTION</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Peliculas</a>
+            </li>
+          </ul>
+          <div class="busqueda">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i>
+            </button>
+          </div>
+          </form>
+          <div class="botones">
+          <form class="container-fluid justify-content-start">
+              <button class="btn btn-outline-success me-2" type="button">Iniciar Sesión</button>
+              <button class="btn btn-outline-success me-2" type="button">Registrarse</button>
+          </div>
+            </form>
+        </div>
+      </div>
+    </nav>
+  
+    </header>
 
    <section class="fondo">
     
 
         
-   <div class="banner" style="background-image: url(https://tierragamer.com/wp-content/uploads/2020/03/violencia-pelicula-mortal-kombat.jpg);">
+   <div class="banner2" style="background-image: url(https://tierragamer.com/wp-content/uploads/2020/03/violencia-pelicula-mortal-kombat.jpg);">
 
 <div class="row">
     <div class="col-sm-5 text-right">
@@ -28,7 +65,7 @@
      </div>
      
      <div class="col-sm-6">
-    <h1>Mortal Kombat</h1>
+    <h1 class="fondos">Mortal Kombat</h1>
     <p class="p1">1h-50m/Acción-Fantasía/2021</p>
         <p class="contenido">Cole Young, el luchador de MMA, acostumbrado a 
             recibir palizas por dinero, desconoce su ascendencia, y tampoco 
@@ -49,9 +86,9 @@
 
 <div class="container">
 
-<h2>Peliculas Recomendadas</h2>
+<h2 class="fondos2">Peliculas Recomendadas</h2>
 
-<div class="multiple-items">
+<div class="multiple-items2">
     
     <div><a href="#"><img src="img/3.webp" width="280" height="300" alt=""></a></div>
     <div><a href="#"><img src="img/17.webp" width="280" height="300" alt=""></a></div>
@@ -64,24 +101,58 @@
   </div>
    </section>
 
-   <footer>
-   </footer>
+   <footer class="pie2">
+    <div class="row">
+      <div class="col-3">   
+          <ul class = "explorar">
+            <h2 class="pieza">RANKING</h2>
+            <li>THOR RAGNAROK</li>
+            <li>X-MEN</li>
+          </ul>
+      </div>
+      <div class="col-3">
+            <ul class = "empezar">
+              <h2 class="pieza">EMPIECE AHORA</h2>
+          
+            <li>Iniciar Sesion</li>
+            <li>Suscribirse</li>
+            </ul>
+       </div>
+      <div class="col-3">
+              <ul class="ayuda">
+             <h2 class="pieza">AYUDA</h2>
+            <li>Preguntas Frecuentes</li>
+            <li>Contactenos</li>
+            <li>Dispositivos Admitidos</li>
+            </ul>
+      </div>
+        <div class="col-3">
+            <ul class="compañia">
+              <h2 class="pieza">COMPAÑIA</h2>
+              <li>Publicidad</li>
+              <li>Terminos y Condiciones</li>
+            </ul>
+        </div>
+          
+    </div>
+ 
+           
+</footer>
 
 
-   <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+<script  src="https://code.jquery.com/jquery-2.2.4.min.js"integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
    <script>
-    $('.multiple-items').slick({
+   $('.multiple-items2').slick({
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     speed: 1000,
     arrows: false,
-    prevArrow: $('#flecha-izquierda1'),
-    nextArrow: $('#flecha-derecha1'),
     responsive: [
         {
           breakpoint: 600,
